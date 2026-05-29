@@ -1,8 +1,8 @@
 let secretNumber = generateNumber ();
 
 //forma mais otimizada de selecionar e modificar vários elementos html
-function writeText (tag, text){
-    let field = document.querySelector (tag);
+function writeText (tags, text){
+    let field = document.querySelector (tags);
     field.innerHTML = text;
 }
 writeText ('h1', 'Jogo do Número Secreto!');
