@@ -18,6 +18,6 @@ function verificarChute(){
     if (chosenNumber == secretNumber){
         alert ('Parabéns! Você acertou o número secreto!');
     } else {
-        alert ('Ops! Tente novamente, por favor!');
+        alert ('Ops! Tente novamente, por favorzinho!');
     }
 }
